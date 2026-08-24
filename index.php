@@ -1,3 +1,4 @@
 <?php
-echo"Ola, voce executou essa aplicação em nuvem";
+$codigo = bin2hex(random_bytes(5)); // Gera 10 caracteres aleatórios
+echo $codigo;
 ?>
